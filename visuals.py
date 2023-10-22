@@ -4,25 +4,24 @@ import game
 window = tk.Tk()
 
 def easy_call():
-    print("EASY")
     game.openEasy()
 
 def medium_call():
-    print("medium")
     game.openMedium()
 def hard_call():
-    print("hard")
     game.openHard()
 def show_menu():
     def easy_inner():
         menuWindow.destroy()
-        game.openEasy()
+        easy_call()
+
     def medium_inner():
         menuWindow.destroy()
-        game.openMedium()
+        game.openEasy()
     def hard_inner():
         menuWindow.destroy()
-        game.openHard()
+        hard_call()
+
     menuWindow = tk.Tk()
     menuWindow.title("Menu Window")
     menuWindow.geometry("750x750")

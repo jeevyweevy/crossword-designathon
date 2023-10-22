@@ -12,5 +12,4 @@ def main():
 
 
 if __name__ == '__main__':
-    wordsearch.initialize_screen_easy()
     visuals.homeScreen()
