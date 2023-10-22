@@ -11,7 +11,10 @@ def openEasy():
     def goBack():
         window.destroy()
         visuals.show_menu()
-    grid, words = wordsearch.initialize_screen_easy()
+
+    found = [False, False, False, False, False, False]
+
+    grid, words, definitions = wordsearch.initialize_screen_easy()
 
     window = tk.Tk()
     window.title("Easy Level")
@@ -19,7 +22,6 @@ def openEasy():
 
     num_rows = 10
     num_columns = 10
-
 
 
     # Calculate the cell size based on the available space and the grid size
@@ -40,12 +42,15 @@ def openEasy():
     words_to_find_label = tk.Label(window, text="WORDS TO FIND: ", font=("Arial", 20))
     words_to_find_label.place(x=left_padding, y=550)
 
+    def showDefintion(i):
+        showDef(definitions[i], words[i])
+
     for i in range(0,3):
-        word_label = tk.Button(window, text=words[i], font=("Arial", 12))
+        word_label = tk.Button(window, text=words[i], font=("Arial", 12), command= lambda num=i: showDefintion(num))
         word_label.place(x=left_padding + (200 * i),y=590)
     for i in range(3,6):
-        word_label = tk.Button(window, text=words[i], font=("Arial", 12))
-        word_label.place(x=left_padding + (200 * (i-3)), y=620)
+        word_label = tk.Button(window, text=words[i], font=("Arial", 12), command= lambda num=i: showDefintion(num))
+        word_label.place(x=left_padding + (200 * (i-3)), y=630)
 
     back_button = tk.Button(window, text="BACK", font= ("Arial", 20),command=goBack)
     back_button.pack(side= "bottom", anchor= "ne", padx =20, pady=20)
@@ -85,7 +90,7 @@ def openMedium():
     words_to_find_label.place(x=left_padding, y=550)
 
     def showDefintion(i):
-        print(definitions[i])
+        showDef(definitions[i], words[i])
 
 
     for i in range(0,3):
@@ -93,7 +98,7 @@ def openMedium():
         word_label.place(x=left_padding + (200 * i),y=590)
     for i in range(3,6):
         word_label = tk.Button(window, text=words[i], font=("Arial", 12), command= lambda num=i: showDefintion(num))
-        word_label.place(x=left_padding + (200 * (i-3)), y=620)
+        word_label.place(x=left_padding + (200 * (i-3)), y=630)
 
     back_button = tk.Button(window, text="BACK", font= ("Arial", 20),command=goBack)
     back_button.pack(side= "bottom", anchor= "ne", padx =20, pady=20)
@@ -135,7 +140,7 @@ def openHard():
     words_to_find_label.place(x=left_padding, y=550)
 
     def showDefintion(i):
-        print(definitions[i])
+        showDef(definitions[i], words[i])
 
 
     for i in range(0,4):
@@ -150,3 +155,18 @@ def openHard():
 
 
     window.mainloop()
+
+
+def showDef(definition, name):
+    defWindow = tk.Tk()
+    defWindow.geometry("400x200")
+    defWindow.title(name)
+
+    header = "DEFINITION OF " + name + ": "
+    def_header = tk.Label(defWindow, text=header, font=("Arial", 14, "bold"), wraplength= 250)
+    def_header.pack()
+    def_label = tk.Label(defWindow, text=definition, font=("Arial", 14), wraplength= 250)
+    def_label.pack()
+
+
+

@@ -88,18 +88,25 @@ def initialize_screen_hard():
 
 def initialize_screen_easy():
     with open("easy_dictionary", "r") as file:
-        terms = file.readlines()
-    terms = [term.upper().strip() for term in terms]
+        lines = file.readlines()
+    terms_and_definitions = [line.strip().upper().split(': ') for line in lines if ':' in line]
+    random.shuffle(terms_and_definitions)
 
-    words = random.sample(terms, 6)
+    selected_items = terms_and_definitions[:6]
 
     grid_size = 12
     grid = [['_' for _ in range(grid_size)] for _ in range(grid_size)]
 
     orientations = ['leftright', 'updown']
 
-    for word in words:
-        word_length = len(word)
+    words = []
+    definitions = []
+
+    for term, definition in selected_items:
+        words.append(term)
+        definitions.append(definition)
+
+        word_length = len(term)
         placed = False
 
         while not placed:
@@ -129,7 +136,7 @@ def initialize_screen_easy():
             failed = False
 
             for i in range(word_length):
-                character = word[i]
+                character = term[i]
 
                 new_position_x = x_position + i * step_x
                 new_position_y = y_position + i * step_y
@@ -145,7 +152,7 @@ def initialize_screen_easy():
                 continue
             else:
                 for i in range(word_length):
-                    character = word[i]
+                    character = term[i]
 
                     new_position_x = x_position + i * step_x
                     new_position_y = y_position + i * step_y
@@ -158,7 +165,7 @@ def initialize_screen_easy():
             if (grid[x][y] == '_'):
                 grid[x][y] = random.choice(string.ascii_uppercase)
 
-    return grid, words
+    return grid, words, definitions
 
 
 
