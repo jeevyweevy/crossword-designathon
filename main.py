@@ -1,7 +1,7 @@
 import wordsearch
+import visuals
 import random
 import string
-
 from pprint import pprint
 
 
@@ -12,5 +12,5 @@ def main():
 
 
 if __name__ == '__main__':
-    wordsearch.initialize_screen()
-
+    wordsearch.initialize_screen_easy()
+    visuals.homeScreen()
