@@ -1,200 +1,198 @@
-Anemia
-Artery
-Biopsy
-Bronchitis
-Cataract
-Cholesterol
-Dermatology
-Diabetes
-Electrocardiogram
-Endoscopy
-Epidemic
-Erythrocyte
-Gastroenteritis
-Hematology
-Immunology
-Infection
-Inflammation
-Insulin
-Intubation
-Jaundice
-Kidney
-Leukemia
-Lymphocyte
-Migraine
-Nephritis
-Neurology
-Obstetrics
-Oncology
-Ophthalmology
-Orthopedics
-Osteoporosis
-Palpitation
-Paralysis
-Pathology
-Pediatrics
-Phlebitis
-Podiatry
-Pneumonia
-Prosthesis
-Radiology
-Rheumatology
-Sclerosis
-Seizure
-Stethoscope
-Surgery
-Symptom
-Syndrome
-Tachycardia
-Thrombosis
-Transplant
-Urology
-Vaccination
-Vasectomy
-Ventilation
-X-ray
-Abdominal
-Acupuncture
-Allergy
-Anesthesia
-Antibiotic
-Arrhythmia
-Asthma
-Bronchoscopy
-Carcinoma
-Cerebrospinal
-Congenital
-Cyanosis
-Diaphragm
-Emphysema
-Fibromyalgia
-Fracture
-Gynecology
-Hemorrhage
-Hypertension
-Immunization
-Inoculation
-Lithotripsy
-Mammogram
-Myocardium
-Nephrology
-Ovarian
-Paraplegia
-Pericardium
-Pharyngitis
-Pneumothorax
-Prostate
-Psychiatry
-Pulmonology
-Renal
-Sarcoma
-Scoliosis
-Septicemia
-Stomatology
-Syphilis
-Tonsillitis
-Ultrasound
-Vaccination
-Varicella
-Virology
-Xerostomia
-Adrenaline
-Angioplasty
-Atherosclerosis
-Axon
-Bacteriophage
-Benign
-Bradycardia
-Carotid
-Cellulitis
-Chemotherapy
-Cirrhosis
-Coagulation
-Dementia
-Dextrocardia
-Electroencephalogram
-Embolism
-Erythema
-Fibrillation
-Gastrectomy
-Hemorrhoid
-Hepatitis
-Ileum
-Immunoglobulin
-Infarction
-Keratitis
-Laryngitis
-Leukocyte
-Mammoplasty
-Meningitis
-Metabolism
-Mononucleosis
-Myalgia
-Myocarditis
-Nephropathy
-Neuralgia
-Neuritis
-Neutropenia
-Obstetrician
-Osteoarthritis
-Otitis
-Pallor
-Pancreatitis
-Paroxysm
-Peritonitis
-Pharyngitis
-Placenta
-Pleurisy
-Polydipsia
-Postpartum
-Pruritus
-Radiography
-Respiration
-Retrovirus
-Rhinoplasty
-Sepsis
-Spasm
-Stomatitis
-Syncope
-Tachypnea
-Tendinitis
-Thrombocyte
-Thyroiditis
-Tinnitus
-Tracheostomy
-Transfusion
-Ultrasonography
-Urethritis
-Vaccinology
-Vaginosis
-Varicosity
-Vasculitis
-Ventricular
-Vertigo
-Viscera
-Xanthoma
-Xenotransplant
-Xeroderma
-Xerophthalmia
-Xerosis
-Zoonosis
-Agammaglobulinemia
-Amyotrophic
-Asphyxiation
-Bacteremia
-Cholecystectomy
-Cyanosis
-Diarrhea
-Endocarditis
-Epiglottis
-Fibrosarcoma
-Ganglion
-Hematemesis
-Hemoptysis
-Hyperglycemia
-Hypoglycemia
-Iridectomy
-Keratoplasty
-Laryngectomy
-Lithotripsy
-Melanoma
+Anemia: A condition characterized by a deficiency of red blood cells or hemoglobin in the blood, resulting in fatigue and weakness.
+Artery: Blood vessels that carry oxygenated blood away from the heart to various parts of the body.
+Biopsy: The removal and examination of a small tissue sample from the body to diagnose diseases or conditions.
+Bronchitis: Inflammation of the bronchial tubes, often leading to coughing and difficulty in breathing.
+Cataract: Clouding of the eye's lens, leading to decreased vision.
+Cholesterol: A waxy, fat-like substance in the blood that can contribute to heart disease when elevated.
+Dermatology: The medical specialty focused on the diagnosis and treatment of skin conditions.
+Diabetes: A chronic condition that affects blood sugar levels and insulin production in the body.
+Endoscopy: A medical procedure that uses a thin, flexible tube with a camera to examine the interior of the body.
+Epidemic: A sudden and widespread outbreak of a disease within a specific population or region.
+Erythrocyte: Red blood cells that transport oxygen from the lungs to the body's tissues.
+Gastroenteritis: Inflammation of the stomach and intestines, often causing diarrhea and vomiting.
+Hematology: The branch of medicine concerned with blood and blood disorders.
+Immunology: The study of the immune system and its responses to foreign substances or infections.
+Infection: The invasion and multiplication of harmful microorganisms in the body, leading to illness.
+Inflammation: The body's response to injury or infection, often resulting in redness, swelling, and pain.
+Insulin: A hormone that regulates blood sugar levels by facilitating the uptake of glucose by cells.
+Intubation: The insertion of a tube into the trachea to help with breathing or provide anesthesia.
+Jaundice: Yellowing of the skin and eyes due to excess bilirubin in the blood.
+Kidney: Vital organs responsible for filtering waste and excess substances from the blood.
+Leukemia: A cancer of the blood-forming tissues, such as the bone marrow and blood.
+Lymphocyte: A type of white blood cell crucial for the immune system's defense against infections.
+Migraine: A severe headache often accompanied by other symptoms, such as nausea and light sensitivity.
+Nephritis: Inflammation of the kidneys that can lead to kidney damage.
+Neurology: The medical specialty that focuses on disorders of the nervous system.
+Obstetrics: The branch of medicine dealing with pregnancy, childbirth, and women's reproductive health.
+Oncology: The study and treatment of cancer.
+Ophthalmology: The medical specialty concerning the eyes and their diseases.
+Orthopedics: The branch of medicine dealing with the musculoskeletal system, including bones and joints.
+Osteoporosis: A condition characterized by reduced bone density and increased susceptibility to fractures.
+Palpitation: A sensation of rapid, irregular, or forceful heartbeat.
+Paralysis: Loss of muscle function and control due to nerve damage or injury.
+Pathology: The study of the nature and causes of diseases, often involving laboratory analysis.
+Pediatrics: The branch of medicine that specializes in the care of children.
+Phlebitis: Inflammation of a vein, often accompanied by pain and swelling.
+Podiatry: The medical specialty focused on the treatment of foot and ankle conditions.
+Pneumonia: A lung infection characterized by inflammation and fluid accumulation in the air sacs.
+Prosthesis: An artificial device or replacement used to replace a missing body part.
+Radiology: The branch of medicine that uses medical imaging techniques like X-rays and MRIs for diagnosis.
+Rheumatology: The medical specialty that deals with disorders of the joints and connective tissues.
+Sclerosis: The hardening or thickening of body tissues or organs.
+Seizure: A sudden, uncontrolled electrical disturbance in the brain, often resulting in various symptoms.
+Stethoscope: A medical instrument used to listen to sounds within the body, particularly the heart and lungs.
+Surgery: Medical procedures involving the manual manipulation or removal of tissues and organs.
+Symptom: A subjective indication of a disease or condition experienced by a patient.
+Syndrome: A collection of symptoms and signs that occur together, often indicating a particular disease or condition.
+Tachycardia: Abnormally fast heart rate.
+Thrombosis: The formation of a blood clot within a blood vessel, potentially leading to blockage.
+Transplant: The surgical procedure of transferring an organ or tissue from one person to another to replace a damaged or failing organ.
+Urology: The medical specialty focused on the urinary tract and male reproductive system.
+Vaccination: The administration of a vaccine to stimulate the immune system and provide immunity against a specific disease.
+Vasectomy: A surgical procedure that involves cutting or blocking the vas deferens to prevent sperm from reaching the semen.
+Ventilation: The process of providing artificial respiratory support to individuals who have difficulty breathing on their own.
+X-ray: A form of medical imaging that uses electromagnetic radiation to visualize the internal structures of the body.
+Abdominal: Relating to the abdomen or the area of the body between the chest and pelvis.
+Acupuncture: A traditional Chinese medical practice involving the insertion of thin needles into specific points on the body to promote healing and relieve pain.
+Allergy: An abnormal immune response to a substance, often resulting in symptoms such as sneezing, itching, and swelling.
+Anesthesia: The use of drugs to induce a loss of sensation or consciousness during medical procedures.
+Antibiotic: A medication used to treat bacterial infections.
+Arrhythmia: An abnormal heart rhythm, which may be too fast, too slow, or irregular.
+Asthma: A chronic respiratory condition characterized by airway inflammation and recurrent episodes of breathlessness and wheezing.
+Bronchoscopy: A medical procedure that uses a thin, flexible tube with a camera to examine the airways and lungs.
+Carcinoma: A type of cancer that arises from the epithelial cells lining various organs and tissues.
+Cerebrospinal: Relating to the cerebrospinal fluid, which surrounds the brain and spinal cord.
+Congenital: Present at birth; a condition or anomaly that is present from the moment of birth.
+Cyanosis: A bluish or purple discoloration of the skin or mucous membranes due to insufficient oxygen in the blood.
+Diaphragm: A dome-shaped muscle that separates the chest cavity from the abdominal cavity and plays a crucial role in breathing.
+Emphysema: A chronic lung disease characterized by damaged and enlarged air sacs in the lungs, leading to breathing difficulties.
+Fibromyalgia: A disorder characterized by widespread musculoskeletal pain, fatigue, and tender points in the body.
+Fracture: A break or crack in a bone or other hard tissue.
+Gynecology: The medical specialty focused on the female reproductive system and women's health.
+Hemorrhage: Severe bleeding, often due to injury, surgery, or a medical condition.
+Hypertension: High blood pressure, a condition that can lead to various health problems.
+Immunization: The process of making an individual immune to a specific disease, typically through vaccination.
+Inoculation: The introduction of a substance, such as a vaccine, into the body to provide immunity against a specific disease.
+Lithotripsy: A medical procedure that uses shock waves to break down kidney stones.
+Mammogram: An X-ray of the breast used for the early detection of breast cancer.
+Myocardium: The muscular tissue of the heart responsible for pumping blood.
+Nephrology: The medical specialty focused on the diagnosis and treatment of kidney disorders.
+Ovarian: Relating to the ovaries, which are part of the female reproductive system.
+Paraplegia: The loss of motor and sensory function in the lower half of the body, typically due to spinal cord injury.
+Pericardium: The membrane surrounding the heart.
+Pharyngitis: Inflammation of the throat, often resulting in sore throat and difficulty swallowing.
+Pneumothorax: The presence of air in the pleural cavity, leading to lung collapse.
+Prostate: A gland in the male reproductive system responsible for producing seminal fluid.
+Psychiatry: The medical specialty concerned with the diagnosis and treatment of mental illnesses.
+Pulmonology: The medical specialty focused on the diagnosis and treatment of lung and respiratory disorders.
+Renal: Relating to the kidneys.
+Sarcoma: A type of cancer that develops from connective tissues, such as bone, muscle, or fat.
+Scoliosis: A condition characterized by an abnormal curvature of the spine.
+Septicemia: A severe infection in the bloodstream.
+Stomatology: The branch of dentistry that deals with the study of the mouth and its diseases.
+Syphilis: A sexually transmitted infection caused by the bacterium Treponema pallidum.
+Tonsillitis: Inflammation of the tonsils, often resulting in a sore throat.
+Ultrasound: A medical imaging technique that uses high-frequency sound waves to create images of internal body structures.
+Varicella: The medical term for chickenpox, a contagious viral disease.
+Virology: The study of viruses and viral infections.
+Xerostomia: A medical term for dry mouth, often caused by reduced saliva production.
+Adrenaline: A hormone and neurotransmitter that prepares the body for the "fight or flight" response in stressful situations.
+Angioplasty: A medical procedure used to widen narrowed or blocked blood vessels, often involving the use of a balloon catheter.
+Atherosclerosis: The narrowing and hardening of arteries due to the buildup of fatty deposits, leading to reduced blood flow.
+Axon: A long, slender extension of a nerve cell that conducts electrical impulses away from the cell body.
+Bacteriophage: A virus that infects and replicates within bacteria.
+Benign: A medical term used to describe non-cancerous or non-life-threatening conditions or tumors.
+Bradycardia: Abnormally slow heart rate.
+Carotid: Relating to the carotid arteries in the neck, which supply blood to the brain.
+Cellulitis: A bacterial skin infection often characterized by redness, swelling, and warmth in the affected area.
+Chemotherapy: The use of drugs to treat and control cancer by inhibiting the growth of cancer cells.
+Cirrhosis: Scarring of the liver tissue often caused by long-term liver damage.
+Coagulation: The process of blood clot formation to prevent excessive bleeding.
+Dementia: A broad term for a decline in cognitive function, often associated with memory loss and impaired reasoning.
+Dextrocardia: A condition where the heart is positioned on the right side of the chest instead of the left.
+Electroencephalogram: A test that records electrical activity in the brain and is used to diagnose neurological disorders.
+Embolism: A condition in which a blood clot or other foreign material travels through the bloodstream and blocks a blood vessel.
+Erythema: Redness or inflammation of the skin or mucous membranes.
+Fibrillation: A rapid, irregular heartbeat often related to the atria or ventricles.
+Gastrectomy: Surgical removal of part or all of the stomach.
+Hemorrhoid: Swollen and inflamed blood vessels in the rectum or anus.
+Hepatitis: Inflammation of the liver, often caused by viral infections.
+Ileum: The final portion of the small intestine, where nutrient absorption occurs.
+Immunoglobulin: A protein produced by the immune system to help defend against infections and diseases.
+Infarction: Tissue death caused by the obstruction of blood flow to a particular area, such as in a heart attack or stroke.
+Keratitis: Inflammation of the cornea, the transparent front part of the eye.
+Laryngitis: Inflammation of the larynx or voice box, leading to hoarseness or loss of voice.
+Leukocyte: A white blood cell involved in the body's immune response.
+Mammoplasty: Surgical procedures related to the breast, such as augmentation or reduction.
+Meningitis: Inflammation of the protective membranes covering the brain and spinal cord.
+Metabolism: The set of chemical reactions that occur within the body to maintain life and energy production.
+Mononucleosis: An infectious disease caused by the Epstein-Barr virus, often characterized by fever, sore throat, and fatigue.
+Myalgia: Muscle pain or discomfort.
+Myocarditis: Inflammation of the heart muscle.
+Nephropathy: Disease or damage to the kidneys.
+Neuralgia: Intense, stabbing, or burning pain along the course of a nerve.
+Neuritis: Inflammation of a nerve.
+Neutropenia: A condition characterized by a low count of neutrophils, a type of white blood cell.
+Obstetrician: A medical doctor specializing in pregnancy and childbirth.
+Osteoarthritis: A degenerative joint disease causing pain and stiffness.
+Otitis: Inflammation of the ear, often referred to as ear infection.
+Pallor: Unusual paleness of the skin or mucous membranes.
+Pancreatitis: Inflammation of the pancreas.
+Paroxysm: A sudden and uncontrollable episode or attack of symptoms.
+Peritonitis: Inflammation of the lining of the abdominal cavity.
+Pharyngitis: Inflammation of the throat, often resulting in a sore throat.
+Placenta: An organ that develops during pregnancy to provide oxygen and nutrients to the fetus and remove waste.
+Pleurisy: Inflammation of the pleura, the lining around the lungs, often causing chest pain.
+Polydipsia: Excessive thirst and increased fluid intake.
+Postpartum: The period following childbirth.
+Pruritus: Itching of the skin.
+Radiography: The use of X-rays or other forms of radiation to produce images for medical diagnosis and treatment.
+Respiration: The process of inhaling oxygen and exhaling carbon dioxide, essential for gas exchange in the body.
+Retrovirus: A type of virus that contains RNA as its genetic material and can reverse transcribe it into DNA within host cells.
+Rhinoplasty: A surgical procedure to reshape or reconstruct the nose.
+Sepsis: A severe response to infection that can lead to systemic inflammation and multiple organ failure.
+Spasm: A sudden, involuntary, and temporary muscle contraction or movement.
+Stomatitis: Inflammation of the mucous lining of the mouth.
+Syncope: A temporary loss of consciousness, often referred to as fainting.
+Tachypnea: Abnormally rapid breathing.
+Tendinitis: Inflammation of a tendon, often caused by overuse or injury.
+Thrombocyte: Another term for a platelet, a component of blood responsible for clotting.
+Thyroiditis: Inflammation of the thyroid gland.
+Tinnitus: The perception of ringing or other sounds in the ears when no external sound source is present.
+Tracheostomy: A surgical procedure to create an opening in the trachea (windpipe) to assist with breathing.
+Transfusion: The process of transferring blood or blood components from one person to another.
+Ultrasonography: The use of high-frequency sound waves to create images of the inside of the body.
+Urethritis: Inflammation of the urethra, the tube that carries urine from the bladder to the outside of the body.
+Vaccinology: The study and development of vaccines.
+Vaginosis: A condition characterized by abnormal vaginal discharge, often due to a bacterial imbalance.
+Varicosity: The state of being varicose, often referring to enlarged and twisted veins.
+Vasculitis: Inflammation of the blood vessels.
+Ventricular: Relating to the ventricles, which are the lower chambers of the heart.
+Vertigo: A sensation of dizziness or spinning, often related to balance or inner ear issues.
+Viscera: The internal organs in the main cavities of the body, such as the heart, lungs, and intestines.
+Xanthoma: A skin condition characterized by the development of yellowish cholesterol deposits.
+Xenotransplant: The transplantation of organs or tissues from one species to another, typically from animals to humans.
+Xeroderma: A medical term for dry skin.
+Xerophthalmia: A condition of dry eyes often due to a deficiency of vitamin A.
+Xerosis: Abnormal dryness of the skin or mucous membranes.
+Zoonosis: Diseases that can be transmitted between animals and humans.
+Agammaglobulinemia: A rare immune system disorder characterized by a lack of gamma globulins (antibodies).
+Amyotrophic: Referring to muscle weakness and degeneration.
+Asphyxiation: The deprivation of oxygen, often leading to suffocation or choking.
+Bacteremia: The presence of bacteria in the bloodstream.
+Cholecystectomy: Surgical removal of the gallbladder.
+Cyanosis: A bluish or purple discoloration of the skin or mucous membranes due to insufficient oxygen in the blood.
+Diarrhea: Frequent and watery bowel movements.
+Endocarditis: Inflammation of the inner lining of the heart chambers and valves.
+Epiglottis: A flap of tissue that covers the windpipe during swallowing to prevent food or liquids from entering the airway.
+Fibrosarcoma: A cancerous tumor arising from fibrous tissue.
+Ganglion: A collection of nerve cells outside the central nervous system.
+Hematemesis: The vomiting of blood.
+Hemoptysis: The coughing up of blood from the respiratory tract.
+Hyperglycemia: High blood sugar levels.
+Hypoglycemia: Low blood sugar levels.
+Iridectomy: Surgical removal of part of the iris.
+Keratoplasty: Corneal transplant, a surgical procedure to replace a damaged cornea with a healthy one.
+Laryngectomy: Surgical removal of the larynx or voice box.
+Lithotripsy: A medical procedure that uses shock waves to break down kidney stones.
+Melanoma: A type of skin cancer that arises from melanocytes, the pigment-producing cells in the skin.

@@ -17,7 +17,7 @@ def show_menu():
 
     def medium_inner():
         menuWindow.destroy()
-        game.openEasy()
+        game.openMedium()
     def hard_inner():
         menuWindow.destroy()
         hard_call()
