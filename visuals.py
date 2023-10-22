@@ -9,21 +9,20 @@ def easy_call():
 
 def medium_call():
     print("medium")
+    game.openMedium()
 def hard_call():
     print("hard")
+    game.openHard()
 def show_menu():
     def easy_inner():
         menuWindow.destroy()
-        easy_call()
-
+        game.openEasy()
     def medium_inner():
         menuWindow.destroy()
-        medium_call()
-
+        game.openMedium()
     def hard_inner():
         menuWindow.destroy()
-        hard_call()
-
+        game.openHard()
     menuWindow = tk.Tk()
     menuWindow.title("Menu Window")
     menuWindow.geometry("750x750")
