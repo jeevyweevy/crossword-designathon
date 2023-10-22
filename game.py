@@ -2,6 +2,7 @@ import tkinter as tk
 import wordsearch
 import visuals
 
+
 left_padding = 20
 right_padding = 20
 top_padding = 20
@@ -12,7 +13,7 @@ def openEasy():
         window.destroy()
         visuals.show_menu()
 
-    found = [False, False, False, False, False, False]
+    checked = [False, False, False, False, False, False]
 
     grid, words, definitions = wordsearch.initialize_screen_easy()
 
@@ -42,15 +43,28 @@ def openEasy():
     words_to_find_label = tk.Label(window, text="WORDS TO FIND: ", font=("Arial", 20))
     words_to_find_label.place(x=left_padding, y=550)
 
+    found = tk.PhotoImage(file="found.png")
+
     def showDefintion(i):
+        checked[i] = True
+        checked_label = tk.Label(window, image=found)
+        if i in range(0,3):
+            checked_label.place(x=left_padding + (200 * i), y=590)
+        if i in range(3,6):
+            checked_label.place(x=left_padding + (200 * (i-3)), y=630)
+        if all(checked):
+            win_label = tk.Label(window, text= "CONGRATULATIONS! YOU WON!!!", font=("Arial", 30, "bold"))
+            win_label.pack(side = "bottom")
         showDef(definitions[i], words[i])
 
     for i in range(0,3):
+
         word_label = tk.Button(window, text=words[i], font=("Arial", 12), command= lambda num=i: showDefintion(num))
-        word_label.place(x=left_padding + (200 * i),y=590)
+        word_label.place(x=left_padding + (200 * i) + 30,y=590)
+
     for i in range(3,6):
         word_label = tk.Button(window, text=words[i], font=("Arial", 12), command= lambda num=i: showDefintion(num))
-        word_label.place(x=left_padding + (200 * (i-3)), y=630)
+        word_label.place(x=left_padding + (200 * (i-3)) +30, y=630)
 
     back_button = tk.Button(window, text="BACK", font= ("Arial", 20),command=goBack)
     back_button.pack(side= "bottom", anchor= "ne", padx =20, pady=20)
@@ -59,6 +73,7 @@ def openEasy():
     window.mainloop()
 
 def openMedium():
+    checked = [False, False, False, False, False, False]
     def goBack():
         window.destroy()
         visuals.show_menu()
@@ -88,17 +103,31 @@ def openMedium():
 
     words_to_find_label = tk.Label(window, text="WORDS TO FIND: ", font=("Arial", 20))
     words_to_find_label.place(x=left_padding, y=550)
+    found = tk.PhotoImage(file="found.png")
 
     def showDefintion(i):
+        checked[i] = True
+        checked_label = tk.Label(window, image=found)
+        if i in range(0, 3):
+            checked_label.place(x=left_padding + (200 * i), y=590)
+        if i in range(3, 6):
+            checked_label.place(x=left_padding + (200 * (i - 3)), y=630)
+        if all(checked):
+            win_label = tk.Label(window, text= "CONGRATULATIONS! YOU WON", font=("Arial", 30, "bold"))
+            win_label.pack(side = "bottom")
+
         showDef(definitions[i], words[i])
+
+
+
 
 
     for i in range(0,3):
         word_label = tk.Button(window, text=words[i], font=("Arial", 12), command= lambda num=i: showDefintion(num))
-        word_label.place(x=left_padding + (200 * i),y=590)
+        word_label.place(x=left_padding +30+ (200 * i),y=590)
     for i in range(3,6):
         word_label = tk.Button(window, text=words[i], font=("Arial", 12), command= lambda num=i: showDefintion(num))
-        word_label.place(x=left_padding + (200 * (i-3)), y=630)
+        word_label.place(x=left_padding +30 + (200 * (i-3)), y=630)
 
     back_button = tk.Button(window, text="BACK", font= ("Arial", 20),command=goBack)
     back_button.pack(side= "bottom", anchor= "ne", padx =20, pady=20)
